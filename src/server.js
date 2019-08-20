@@ -10,5 +10,5 @@ mongoose.connect('mongodb+srv://admin:admin123@cluster0-cealv.mongodb.net/omnist
 
 server.use(cors())
 server.use(express.json())
-server.use(routes) //colocar outras configuracoes que estão em outros ambientes
-server.listen(3333); 
+server.use(routes) //colocar outras configuracoes que estão em outros ambientes  
+server.listen(3333); //Pode ser qualquer porta
